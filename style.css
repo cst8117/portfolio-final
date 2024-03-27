@@ -3,3 +3,24 @@
   --my-color-primary: #1ABC9C;
   --my-color-secondary: #2C3E50;
 }
+
+/* Navbar */
+.navbar-brand, .nav-link {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: var(--my-color-primary);
+}
+
+
+/* Utilities */
+.my-bg-primary {
+  background-color: var(--my-color-primary);
+}
+
+.my-bg-secondary {
+  background-color: var(--my-color-secondary);
+}
